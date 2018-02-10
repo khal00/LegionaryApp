@@ -1,0 +1,83 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Roman Legion Recruitment App</string>
+
+    <string name="join_us_label">Join the legion and conquer!*</string>
+
+    <!--these are the instructions for the user before taking the test-->
+    <string name="recruitment_conditions">"*Not everyone can serve as a roman soldier. To check if you can apply fill out the form below.</string>
+
+    <!--application form headline-->
+    <string name="application_form_label">Application form</string>
+
+    <!--name of the user-->
+    <string name="user_name">Name</string>
+
+    <!--Question about user legal status-->
+    <string name="legal_status">"What is your legal status?"</string>
+
+    <!--tip to hold the button to get more info on each status-->
+    <string name="check_status_details">Tip: if you don\'t know what\'s your status hold down appropriate button to get more details on each social class</string>
+
+    <!--Radio buttons to choose legal state of user-->
+    <string name="roman_citizen">Cives romani</string>
+    <string name="client_state_citizen">Foederati</string>
+    <string name="slave">Slave</string>
+
+    <!--Details about roman social classes assigned to appropriate RadioButtons-->
+    <string name="roman_citizen_tooltip">Cives romani are full roman citizens</string>
+    <string name="foederati_tooltip">Foederati are client states citizens</string>
+    <string name="slave_tooltip">Slaves are other persons property without any legal rights</string>
+
+    <!--Submit button label-->
+    <string name="submit_label">submit</string>
+
+    <!--Toast message when slave RadioButton is checked-->
+    <string name="slave_button_checked_string">We are sorry but slaves can\'t join the army</string>
+
+    <!--Toast message when neither RadioButton is checked-->
+    <string name="no_button_checked">Please choose your legal status</string>
+
+    <!--Toast message when EditText is empty-->
+    <string name="no_user_name">Please write your name in the form</string>
+
+    <!--Greetings fot QuizActivity-->
+    <string name="greetings_string">Salve <xliff:g id="name" example="Julius Ceasar">%s</xliff:g>! Now it\'s time to test your knowledge of Rome\'s history:</string>
+
+    <!--tip about different score result-->
+    <string name="tip_score_result">Tip: Remember! the more questions you answer correctly the higher military rank you will achieve!</string>
+
+    <!--Question 1-->
+    <string name="question1_number">Question I</string>
+    <string name="question1_text">When was Rome founded?</string>
+    <string name="q1a1">April 21, 753 BC</string>
+    <string name="q1a2">September 9, 382 BC</string>
+    <string name="q1a3">January 1, 0 AD</string>
+
+    <!--Question 2-->
+    <string name="question2_number">Question II</string>
+    <string name="question2_text">What states were involved in Punic Wars?</string>
+    <string name="q2a1">City of Athens</string>
+    <string name="q2a2">Persian Empire</string>
+    <string name="q2a3">Carthage</string>
+    <string name="q2a4">Rome</string>
+
+    <!--Question 3-->
+    <string name="question3_number">Question III</string>
+    <string name="question3_text">Who is the author of Aeneid poem?</string>
+    <string name="author_name">Author</string>
+
+
+    <!--User score section-->
+
+    <string name="quiz_end_information">Now click the Evaluate button to find out your rank!</string>
+    <string name="user_score_string">You answered to <xliff:g id="score" example="3">%s</xliff:g> questions correctly. Your will serve as a <xliff:g id="rank" example="veles">%s</xliff:g>!</string>
+    <string name="evaluate_button">evaluate</string>
+
+    <!--Military ranks-->
+    <string name="veles">veles</string>
+    <string name="hastatus">hastatus</string>
+    <string name="princeps">princeps</string>
+    <string name="triarius">triarius</string>
+
+
+</resources>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/back"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/greetings_text_view"
+                style="@style/medium_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/greetings_string" />
+
+            <TextView
+                style="@style/small_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="@string/tip_score_result"
+                android:textColor="@color/colorAccent" />
+
+        </LinearLayout>
+
+
+        <!--Question 1-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/back"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/medium_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question1_number"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/question1"
+                style="@style/medium_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question1_text" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp">
+
+                <RadioButton
+                    android:id="@+id/q1_a1_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1a1" />
+
+                <RadioButton
+                    android:id="@+id/q1_a2_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1a2" />
+
+                <RadioButton
+                    android:id="@+id/q1_a3_radio_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1a3" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/back"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                style="@style/medium_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question2_number"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/question2"
+                style="@style/medium_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question2_text" />
+
+            <CheckBox
+                android:id="@+id/q2_a1_check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="@string/q2a1" />
+
+            <CheckBox
+                android:id="@+id/q2_a2_check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="@string/q2a2" />
+
+            <CheckBox
+                android:id="@+id/q2_a3_check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="@string/q2a3" />
+
+            <CheckBox
+                android:id="@+id/q2_a4_check_box"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="@string/q2a4"
+                android:layout_marginBottom="8dp"/>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/back"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                style="@style/medium_text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/question3_number"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/question3"
+                style="@style/medium_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question3_text" />
+
+            <EditText
+                android:id="@+id/aeneid_author_EditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/author_name"
+                android:textSize="16sp"
+                android:inputType="textCapWords"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="8dp"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/back"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/small_text_style"
+                android:text="@string/quiz_end_information"
+                android:textColor="@color/colorAccent"
+                android:paddingTop="8dp"
+                android:textAlignment="center"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <!--Button to submit the application-->
+
+            <Button
+                android:id="@+id/quiz_submit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="16dp"
+                android:text="@string/evaluate_button"
+                android:onClick="calculateScore"
+                />
+
+
+        </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
